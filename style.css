@@ -159,3 +159,40 @@ section {
 .events .row {
   padding-top: 20px;
 }
+
+.socials-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/IMG_3901.JPG);
+  color: aliceblue;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 20px;
+}
+.socials {
+  color: aliceblue;
+  min-width: 375px;
+  justify-content: space-evenly;
+}
+
+.socials-list {
+  width: 100%;
+  color: aliceblue;
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  text-justify: distribute;
+}
+.socials-list li {
+  display: inline-block;
+  color: aliceblue;
+  margin-top: 35px;
+  /* margin-left: 2.5%; */
+  width: 15%;
+  max-width: 100px;
+}
+#socials-list li a img {
+  fill: aliceblue !important;
+  color: aliceblue;
+  fill-opacity: inherit;
+}
