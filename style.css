@@ -52,12 +52,10 @@ header {
   background-attachment: fixed;
 }
 
-@media not all and (min-resolution: 0.001dpcm) {
-  @media {
-    .safari_only {
-      background-attachment: scroll;
-    }
-  }
+_::-webkit-full-page-media,
+_:future,
+:root .safari_only {
+  background-attachment: scroll;
 }
 
 header img {
