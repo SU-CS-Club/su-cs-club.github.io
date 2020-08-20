@@ -155,3 +155,7 @@ section {
   padding-top: 10px;
   list-style-type: disc;
 }
+
+.events .row {
+  padding-top: 20px;
+}
