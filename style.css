@@ -21,7 +21,7 @@ html {
 h2:after {
   display: block;
   height: 2px;
-  background-color: #f01838;
+  background-color: #cf0826;
   content: " ";
   width: 100px;
   margin: 0 auto;
@@ -43,9 +43,21 @@ header {
     url(img/header_2.jpg);
   color: aliceblue;
   height: 50vh;
+  min-height: 250px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @media {
+    .safari_only {
+      background-attachment: scroll;
+    }
+  }
 }
 
 header img {
@@ -106,6 +118,9 @@ section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(img/header_img.jpg);
   color: aliceblue;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -164,6 +179,9 @@ section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(img/IMG_3901.JPG);
   color: aliceblue;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
